@@ -1,0 +1,82 @@
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+  
+}
+
+.road, .grass {
+    height: 30vh;
+}
+
+.sky {
+    height: 40vh;
+}
+
+.grass, .road, .sky {
+    width: 100vw;
+}
+.sky {
+    background-color: rgb(10, 199, 233);
+}
+
+.grass {
+    background-color: green;
+}
+
+.road {
+    position: relative;
+    background-color: gray;
+    outline: border-top 4px solid rgb(248, 248, 248);
+    
+}
+
+.road-lines {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    border-top: 5px dashed white;
+}
+
+.road img{
+    width: 140px;
+    position: absolute;
+}
+
+.sky img{
+    width: 200px;
+    animation-name: sunRotate;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.road img:nth-child(2){
+    top: 65%;
+    animation-name: drive;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+
+}
+.road img:nth-child(3){
+    top: 10%;
+    animation-name: drive;
+    animation-duration: 3.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes drive {
+    from {transform: translateX(0);}
+    to {transform: translateX(1550px);}
+}
+@keyframes sunRotate {
+    0% { transform: rotateZ(0);}
+    100% { transform: rotateZ(360deg);}
+}
+

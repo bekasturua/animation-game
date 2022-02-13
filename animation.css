@@ -1,0 +1,42 @@
+.parent {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    /* transition: transform 0.6s cubic-bezier(0.075, 0.82, 0.165, 1); background-color 1s; */
+}
+
+.parent:hover .child {
+    /* transform: scale(1.2);
+    background-color: blue; */
+    transform: translateX(100%);
+}
+
+.child {
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    transition: transform .5s;
+    animation-name: moveInToCircle;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes  moveInToCircle {
+    /* 0% {
+        transform: translateX(0);
+    } */
+
+    33% {
+        transform: translateY(100%);
+    }
+
+    66% {
+        transform: translateY(100%) translateX(100%); 
+
+    }
+
+    100% {
+        transform: translateX(100%);
+
+    }
+}
