@@ -58,7 +58,7 @@ body {
 .road img:nth-child(2){
     top: 65%;
     animation-name: drive;
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
 
@@ -66,14 +66,16 @@ body {
 .road img:nth-child(3){
     top: 10%;
     animation-name: drive;
-    animation-duration: 3.5s;
+    animation-duration: 5.5s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
 }
 
+
+
 @keyframes drive {
     from {transform: translateX(0);}
-    to {transform: translateX(1550px);}
+    to {transform: translateX(1900px);}
 }
 @keyframes sunRotate {
     0% { transform: rotateZ(0);}
