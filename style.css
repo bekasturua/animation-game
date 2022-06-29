@@ -93,7 +93,7 @@ body {
 .road img:nth-child(2) {
     top: 55%;
     animation-name: drive;
-    animation-duration: 7.5s;
+    animation-duration: 9.5s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
 }
@@ -101,14 +101,14 @@ body {
 .road img:nth-child(3) {
     top: 65%;
     animation-name: drive;
-    animation-duration: 10.5s;
+    animation-duration: 13.5s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
 }
 .road img:nth-child(4) {
     top: 25%;
     animation-name: drive;
-    animation-duration: 9.5s;
+    animation-duration: 7.5s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
 }
@@ -116,7 +116,7 @@ body {
 .road img:nth-child(5) {
     top: 0%;
     animation-name: drive;
-    animation-duration: 8.5s;
+    animation-duration: 9s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
 }
