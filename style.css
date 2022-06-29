@@ -7,6 +7,7 @@ body {
 body {
     margin: 0;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .road,
@@ -34,6 +35,7 @@ body {
 .road {
     position: relative;
     background-color: gray;
+    height: 36vh;
     outline: border-top 4px solid rgb(248, 248, 248);
 }
 
@@ -45,7 +47,7 @@ body {
 }
 
 .road img {
-    width: 140px;
+    width: 90px;
     position: absolute;
 }
 
@@ -58,16 +60,32 @@ body {
 }
 
 .road img:nth-child(2) {
-    top: 65%;
+    top: 55%;
     animation-name: drive;
-    animation-duration: 6s;
+    animation-duration: 7.5s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
 }
+
 .road img:nth-child(3) {
-    top: 10%;
+    top: 65%;
     animation-name: drive;
-    animation-duration: 5.5s;
+    animation-duration: 10.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+.road img:nth-child(4) {
+    top: 25%;
+    animation-name: drive;
+    animation-duration: 9.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.road img:nth-child(5) {
+    top: 0%;
+    animation-name: drive;
+    animation-duration: 8.5s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
 }
