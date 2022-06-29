@@ -31,12 +31,43 @@ body {
 .grass {
     background-color: green;
 }
+.grass img {
+    width: 130px;
+}
 
 .road {
     position: relative;
     background-color: gray;
-    height: 36vh;
+    height: 30vh;
     outline: border-top 4px solid rgb(248, 248, 248);
+}
+
+.cat {
+    width: 40px !important;
+}
+
+.dog {
+    width: 65px !important;
+}
+
+.tennis {
+    width: 140px !important;
+}
+
+.rabbit {
+    width: 30px !important;
+}
+
+.football {
+    width: 290px !important;
+}
+
+.police {
+    width: 55px !important;
+}
+
+.family {
+    width: 70px !important;
 }
 
 .road-lines {
