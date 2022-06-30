@@ -59,7 +59,7 @@ body {
 }
 
 .football {
-    width: 290px !important;
+    width: 260px !important;
 }
 
 .police {
@@ -68,6 +68,10 @@ body {
 
 .family {
     width: 70px !important;
+}
+
+.ku {
+    width: 40px !important;
 }
 
 .road-lines {
@@ -117,6 +121,14 @@ body {
     top: 0%;
     animation-name: drive;
     animation-duration: 9s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.road img:nth-child(6) {
+    top: -10%;
+    animation-name: drive;
+    animation-duration: 60s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
 }
