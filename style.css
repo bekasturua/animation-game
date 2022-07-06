@@ -46,6 +46,12 @@ body {
     width: 50px !important;
 }
 
+.cat5 {
+    margin-left: -110px;
+    width: 45px !important;
+    margin-bottom: 100px;
+}
+
 .dog {
     width: 65px !important;
 }
@@ -103,6 +109,17 @@ body {
 
 .hotel {
     width: 170px !important;
+}
+
+.pig1 {
+    width: 55px !important;
+    margin-bottom: 105px;
+}
+
+.pig2 {
+    margin-left: -110px;
+    width: 55px !important;
+    margin-bottom: 115px;
 }
 
 .road-lines {
