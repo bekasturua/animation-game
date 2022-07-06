@@ -43,7 +43,7 @@ body {
 }
 
 .cat {
-    width: 40px !important;
+    width: 50px !important;
 }
 
 .dog {
@@ -52,18 +52,27 @@ body {
 
 .tennis {
     width: 140px !important;
+    margin-left: -100px;
+    margin-top: 15px;
+    position: absolute;
 }
 
 .rabbit {
-    width: 30px !important;
+    width: 55px !important;
 }
 
 .football {
-    width: 260px !important;
+    width: 200px !important;
 }
 
-.police {
+.teniss_player {
+    position: absolute;
     width: 55px !important;
+    margin-left: -30px;
+    margin-top: -20px;
+}
+.football_player {
+    width: 45px !important;
 }
 
 .family {
@@ -72,6 +81,24 @@ body {
 
 .ku {
     width: 40px !important;
+}
+
+.goose {
+    width: 80px !important;
+}
+
+.walking1 {
+    width: 40px !important;
+}
+.walking2 {
+    width: 45px !important;
+}
+
+.walking3 {
+    width: 40px !important;
+}
+.house2 {
+    width: 170px !important;
 }
 
 .road-lines {
@@ -105,7 +132,7 @@ body {
 .road img:nth-child(3) {
     top: 65%;
     animation-name: drive;
-    animation-duration: 13.5s;
+    animation-duration: 4s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
 }
@@ -120,7 +147,7 @@ body {
 .road img:nth-child(5) {
     top: 0%;
     animation-name: drive;
-    animation-duration: 9s;
+    animation-duration: 35s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
 }
@@ -128,11 +155,40 @@ body {
 .road img:nth-child(6) {
     top: -10%;
     animation-name: drive;
-    animation-duration: 60s;
+    animation-duration: 45s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
 }
 
+.road img:nth-child(7) {
+    top: 0%;
+    animation-name: drive;
+    animation-duration: 35s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.road img:nth-child(8) {
+    top: -110%;
+    animation-name: driveHourse;
+    animation-duration: 25s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+.road img:nth-child(9) {
+    top: -10%;
+    animation-name: drive;
+    animation-duration: 70s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+.road img:nth-child(10) {
+    top: -10%;
+    animation-name: drive;
+    animation-duration: 140s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
 @keyframes drive {
     from {
         transform: translateX(0);
@@ -141,6 +197,16 @@ body {
         transform: translateX(1900px);
     }
 }
+
+@keyframes driveHourse {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(1900px);
+    }
+}
+
 @keyframes sunRotate {
     0% {
         transform: rotateZ(0);
